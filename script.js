@@ -70,6 +70,7 @@ function createCard(jobs) {
     let newImage = document.createElement("img");
     newImage.setAttribute("class", "card-img");
     newImage.setAttribute("src", `${jobs[i].company_logo}`);
+    newImage.setAttribute("alt", `${jobs[i].title}`)
     imageDiv.appendChild(newImage);
 
     //make div for cardBody
