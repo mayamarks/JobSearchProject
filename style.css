@@ -1,0 +1,13 @@
+#display_area { 
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my_cards {
+    margin: 10px;
+}
+
+header, #search_options {
+    text-align: center;
+}

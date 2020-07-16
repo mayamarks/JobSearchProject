@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>JobSearch</title>
+</head>
+<body>
+  <header>
+    <h1>Job Board Project</h1>
+  </header>
+    <div id="search_options">
+      <form id="my_form" action="submit" >
+        <p>Please enter a job:</p>
+        <input id="job_description" type="text" placeholder="Enter your dream job" required>
+        <p>Please enter a location:</p>
+        <input id="job_location" type="text" placeholder="Enter your dream location">
+        <br>
+        
+        <input id="full_time" type="radio" name="schedule">
+        <label for="full_time">Full-time</label>
+        <input id="part_time" type="radio" name="schedule">
+        <label for="part_time">Part-time</label>
+        <input id="remote" type="radio" name="schedule">
+        <label for="remote">Remote</label>
+        <button id="my_btn" type="submit">Submit</button>
+      </form>
+    </div>
+    
+    <div id="outer_display_area">
+      <div id="display_area">
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
